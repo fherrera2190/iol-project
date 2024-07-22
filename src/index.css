@@ -8,7 +8,10 @@
 p {
   margin: 0;
 }
-
+/* #root{
+  max-width: 1200px;
+  margin: 0 auto;
+} */
 :root {
   --color-txt: #707070;
   --color-txt-medium: #a3a6b4;

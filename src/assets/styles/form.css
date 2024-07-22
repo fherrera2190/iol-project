@@ -1,5 +1,4 @@
 .form-login {
-  
   background-color: #eceefb;
 }
 .form-login input {
@@ -14,7 +13,11 @@
   color: var(--color-primary-light);
 }
 
-button{
+button {
   background-color: var(--color-primary) !important;
-  border-color: var(--color-primary) !important
+  border-color: var(--color-primary) !important;
+}
+.font-body-3 {
+  font-size: 12px;
+  line-height: 16px;
 }

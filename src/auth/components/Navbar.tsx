@@ -3,18 +3,12 @@ import logo from "../../assets/images/iol-logo-v7.svg";
 
 export const Navbar = () => {
   return (
-    <>
-      <div className="container" >
+    <div className="border border-bottom shadow-sm">
+      <div className="container">
         <Link to="/" style={{ width: "170px", height: "42px" }}>
-          <img
-            src={logo}
-            alt="IOL"
-            className="m-3"
-            
-          />
+          <img src={logo} alt="IOL" className="my-2" />
         </Link>
-      
       </div>
-    </>
+    </div>
   );
 };
