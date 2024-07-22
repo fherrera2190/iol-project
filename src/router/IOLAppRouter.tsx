@@ -1,20 +1,15 @@
-import { createBrowserRouter,  } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
+import { IngresarPage } from "../auth";
 
-const router = createBrowserRouterter([
-
+export const router = createBrowserRouter([
   {
     path: "/",
-    element: <h1>Home</h1>,
-  }
-
-
+    element: <IngresarPage />,
+    children: [
+      {
+        path: "micuenta/",
+        element: <h1>Mi Cuenta</h1>,
+      },
+    ],
+  },
 ]);
-
-export const IOLAppRouter = () => {
-  return (
-    // <Routes>
-    //   <Route path="/" element={<h1>Home</h1>} />
-    //   <Route path="/ingresar" element={<h1>Ingresar</h1>} />
-    // </Routes>
-  );
-};

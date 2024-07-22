@@ -1,0 +1,20 @@
+.form-login {
+  
+  background-color: #eceefb;
+}
+.form-login input {
+  background-color: #cfd5fe;
+  height: 3rem;
+}
+.form-login label {
+  font-size: 14px;
+}
+
+.txt-title-color {
+  color: var(--color-primary-light);
+}
+
+button{
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important
+}

@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p {
+  margin: 0;
+}
+
+:root {
+  --color-txt: #707070;
+  --color-txt-medium: #a3a6b4;
+  --color-txt-dark: #2a3554;
+  --color-txt-light: #dadbdd;
+  --color-txt-title: #2a3554;
+  --color-txt-error: #fe4962;
+  --color-txt-link: #4956fe;
+  --color-white: #fff;
+  --color-secondary: #5a259f;
+  --color-secondary-light: #8c53d1;
+  --color-secondary-dark: #843be2;
+  --color-secondary-variant: #843be2;
+  --color-secondary-variant-light: #ba6cff;
+  --color-secondary-variant-dark: #4d00af;
+  --color-primary: #6439ff;
+  --color-primary-light: #6439ff;
+  --color-primary-dark: #6439ff;
+  --color-primary-variant: #0a92ef;
+  --color-primary-variant-light: #67c2ff;
+  --color-primary-variant-dark: #4956fe;
+  --color-bg: #ccc;
+  --color-bg-light: #f0f0f7;
+  --color-bg-medium: #a3a6b4;
+  --color-negative: #d75452;
+  --color-negative-dark: #ff6563;
+  --color-negative-light: #a72523;
+}
+
+button{
+  background-color: var(--color-primary) !important
+}
