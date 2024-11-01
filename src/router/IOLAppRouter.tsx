@@ -5,11 +5,6 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <IngresarPage />,
-    children: [
-      {
-        path: "micuenta/",
-        element: <h1>Mi Cuenta</h1>,
-      },
-    ],
+    children: [],
   },
 ]);
